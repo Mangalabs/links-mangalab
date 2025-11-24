@@ -7,7 +7,7 @@ import IconCopyright from './assets/icon-copyright.png'
 
 export default function App() {
   return (
-    <div className='relative h-screen w-full overflow-hidden bg-[#0A1612] flex flex-col'>
+    <div className='relative h-svh w-full overflow-hidden bg-[#0A1612] flex flex-col'>
       <AnimatedBackground />
 
       <main className='relative z-10 flex-1 flex flex-col items-center justify-center px-4 py-4 sm:py-6 overflow-y-auto'>
