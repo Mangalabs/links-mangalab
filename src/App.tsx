@@ -62,7 +62,7 @@ export default function App() {
                 <MessageCircle className='w-3.5 h-3.5 xs:w-4 xs:h-4 sm:w-5 sm:h-5' />
               }
               title='Fale com nosso time'
-               href='https://wa.me/5585991133102?text=Oi!%20Quero%20saber%20mais%20sobre%20o%20trabalho%20da%20MangaLab.'
+               href='https://wa.me/5541987306000?text=Oi!%20Quero%20saber%20mais%20sobre%20o%20trabalho%20da%20MangaLab.'
             />
 
             <LinkButton
