@@ -1,6 +1,9 @@
 import { AnimatedBackground } from './components/AnimatedBackground'
 import { LinkButton } from './components/LinkButton'
 import { Globe, MessageCircle, Sparkles } from 'lucide-react'
+import Icon from './assets/icon.webp'
+import IconCopyright from './assets/icon-copyright.png'
+
 
 export default function App() {
   return (
@@ -12,7 +15,7 @@ export default function App() {
           <header className='flex flex-col items-center gap-1.5 sm:gap-3'>
             <div className='w-18 h-18 xs:w-14 xs:h-14 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-2xl overflow-hidden bg-white/5 backdrop-blur-sm border-2 border-[#FDCD00]/30 p-1.5 sm:p-2'>
               <img
-                src='/icon.webp'
+                src={Icon}
                 alt='Logo MangaLab'
                 className='w-full h-full object-contain'
                 loading='eager'
@@ -80,7 +83,7 @@ export default function App() {
         <p className='text-[9px] sm:text-xs text-[#555] mt-1'>
           Desenvolvido com
           <img
-            src='/icon-copyright.png'
+            src={IconCopyright}
             alt='amor'
             className='h-2 w-2 inline m-1'
             aria-hidden='true'
